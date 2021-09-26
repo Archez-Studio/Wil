@@ -30,6 +30,11 @@ a{
     top: 25%;
 }
 
+.showcase-text p{
+    font-size: 1em;
+    padding: 0;
+}
+
 .showcase-text button{
     border: 3px solid rgba(255, 255, 255, .5);
     background-color: transparent;
