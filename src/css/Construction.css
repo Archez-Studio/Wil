@@ -1,0 +1,93 @@
+.construction{
+    background-color: rgba(0, 0, 0, .1);
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.construction .pc-1{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .5);
+    padding: 100px 5px 5px 5px;
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.hc-1{
+    font-weight: 400;
+    margin-bottom: 100px;
+    text-transform: capitalize;
+}
+
+.const-card{
+    width: 25%;
+    padding: 15px 15px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.verify, .rating{
+    width: 50%;
+}
+
+.rating{
+    text-align: right;
+}
+
+.verify{
+    text-align: left;
+}
+
+.const-icon{
+    height: 150px;
+    background-color: black;
+    width: 50%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.p-location, .p-tel, .p-mail{
+    color: rgba(0, 0, 0, .7);
+    padding: 0;
+    font-weight: 400;
+}
+
+.p-tel{
+    font-weight: 600;
+}
+
+.head-desc{
+    padding: 10px 0;
+}
+
+.prop-btn{
+    padding: 10px 20px;
+    margin: 20px 0;
+    color: blue;
+    background-color: rgba(0, 0, 255, .2);
+    border: none;
+    border-radius: 5px;
+}
+
+.flex-around{
+    justify-content: center;
+}
+
+.btn-more-props{
+    padding: 10px 40px;
+    border-radius: 15px;
+    color: rgba(0, 0, 0, .6);
+    border: 1px solid rgba(0, 0, 0, .5);
+    left: 43%;
+    bottom: 20px;
+    margin: 30px 5px 50px 5px;
+    position: relative;
+}
