@@ -1,0 +1,27 @@
+.testimonials{
+    width: 75%;
+    margin: auto;
+}
+
+.testimonials h1{
+    text-transform: capitalize;
+}
+
+.testimonials p{
+    color: rgba(0, 0, 0, .7);
+    padding: 10px 40px;
+}
+
+.border-div-2{
+    width: 5% !important;
+    margin-left: 30px !important;
+    margin-top: 25px !important;
+    border-top: 5px solid #02AD88 !important;
+}
+
+.avatar-pic{
+    height: 145px;
+    width: 400px;
+    border: 5px solid orange;
+    margin: 0px 20px 0px 110px;
+}
