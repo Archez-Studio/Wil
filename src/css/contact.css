@@ -1,0 +1,22 @@
+.contact{
+    background-color: #22313F;
+}
+
+.mid-div{
+    width: 50%;
+}
+
+.contact-form input[type=text]{
+    padding: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.in-touch{
+    padding: 10px 40px;
+    background-color: #02AD88;
+    color: white;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

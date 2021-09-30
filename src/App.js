@@ -1,21 +1,12 @@
 import React from 'react'
-import Nav from './components/HomePage/Nav'
-import Showcase from './components/HomePage/Showcase'
-import FeaturedListings from './components/HomePage/Footer'
-import Testimonial from './components/HomePage/Testimonial'
-import Construction from './components/HomePage/Construction'
-import Footer from './components/HomePage/Featured-listings'
-
+import HomePage from '../src/pages/HomePage'
+import Rentals from '../src/pages/Rentals'
 
 const App = () => {
   return (
     <div>
-      <Nav />
-      <Showcase />
-      <FeaturedListings />
-      <Testimonial />
-      <Construction />
-      <Footer />
+      <HomePage />
+      
     </div>
   )
 }
