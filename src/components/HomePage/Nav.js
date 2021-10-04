@@ -1,9 +1,8 @@
 import '../../css/nav.css'
 
-import { BrowserRouter as Router, Switch } from 'react-router-dom'
-
 import { Link } from 'react-router-dom'
 import React from 'react'
+import { BrowserRouter as Router, } from 'react-router-dom'
 
 // import HomePage from '../../pages/HomePage'
 

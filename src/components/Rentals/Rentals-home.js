@@ -1,9 +1,8 @@
 import '../../css/showcase.css'
 
-import { Route, BrowserRouter as Router } from "react-router-dom"
-
 import { Link } from "react-router-dom";
 import React from 'react'
+import { BrowserRouter as Router } from "react-router-dom"
 
 /*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'*/
 
