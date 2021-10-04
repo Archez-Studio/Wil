@@ -1,6 +1,5 @@
-import React from 'react'
 import HomePage from '../src/pages/HomePage'
-import Rentals from '../src/pages/Rentals'
+import React from 'react'
 
 const App = () => {
   return (
