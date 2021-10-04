@@ -1,8 +1,10 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
-import { Link } from 'react-router-dom'
 import '../../css/nav.css'
+
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+
 import HomePage from '../../pages/HomePage'
+import { Link } from 'react-router-dom'
+import React from 'react'
 import Rentals from '../../pages/Rentals'
 
 const Navbar = () => {
