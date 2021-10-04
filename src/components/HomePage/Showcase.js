@@ -1,8 +1,11 @@
-import React from 'react'
-import { Link } from "react-router-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom"
-/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'*/
 import '../../css/showcase.css'
+
+import { Link } from "react-router-dom";
+import React from 'react'
+import { BrowserRouter as Router } from "react-router-dom"
+
+/*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'*/
+
 
 const Showcase = () => {
     return (
