@@ -1,11 +1,14 @@
 import '../../css/nav.css'
 
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+import { BrowserRouter as Router, Switch } from 'react-router-dom'
 
-import HomePage from '../../pages/HomePage'
 import { Link } from 'react-router-dom'
 import React from 'react'
-import Rentals from '../../pages/Rentals'
+
+// import HomePage from '../../pages/HomePage'
+
+
+// import Rentals from '../../pages/Rentals'
 
 const Navbar = () => {
     return (
