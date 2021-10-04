@@ -19,25 +19,25 @@ const Contact = () => {
                     <IconContext.Provider
                          value={{ color: 'white', size: '50px' }}
                         >                   
-                         <a href="#" > <FaFacebook /> </a>
+                         <a href="https://facebook.com" > <FaFacebook /> </a>
                     </IconContext.Provider>
 
                     <IconContext.Provider
                          value={{ color: 'white', size: '50px' }}
                         >                   
-                        <a href="#" > <FaTwitter /> </a>
+                        <a href="https://twitter" > <FaTwitter /> </a>
                     </IconContext.Provider>
 
                     <IconContext.Provider
                          value={{ color: 'white', size: '50px' }}
                         >                   
-                         <a href="#" > <FaGoogle /> </a>
+                         <a href="https://google.com" > <FaGoogle /> </a>
                     </IconContext.Provider>
                     
                     <IconContext.Provider
                          value={{ color: 'white', size: '50px' }}
                         >                   
-                         <a href="#" > <FaVimeo /> </a>
+                         <a href="https://vimeo.com" > <FaVimeo /> </a>
                     </IconContext.Provider>
                 
                     </div>
