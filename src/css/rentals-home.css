@@ -1,0 +1,21 @@
+.showcase-home{
+    height: 88vh;
+    background: url(../assets/Rectangle\ 17.png) center center / cover;
+}
+
+.rentals-txt{
+    font-size: 20px !important;
+    margin-top: 20px;
+}
+
+.showcase-text{
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 50px;
+    margin: 0 10%;
+    top: 15%;
+}
+
+.showcase-text button {
+    margin: 0;
+}
