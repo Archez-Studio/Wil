@@ -11,7 +11,7 @@ const Showcase = () => {
             <React.Fragment>
                 <div  className="showcase-home">
                     <div className="showcase-text show-rentals-txt">
-                        <p>Want to buy<br/>Property</p>
+                        <p>Let's help you<br/>build</p>
                         <p className="rentals-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt</p>
                         <button>Start Now</button>
                     </div>
