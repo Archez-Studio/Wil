@@ -16,6 +16,6 @@
     top: 15%;
 }
 
-.showcase-text button {
-    margin: 0;
+.show-rentals-txt button {
+    margin: 0 !important;
 }

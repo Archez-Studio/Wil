@@ -17,25 +17,25 @@ const Contact = () => {
                     <p style={{padding: '15px 0 40px', marginRight: '100px'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</p>
                     <div className="social-icons flex">
                     <IconContext.Provider
-                         value={{ color: 'white', size: '50px' }}
+                         value={{ color: 'white', size: '35px', marginRight: '15px' }}
                         >                   
                          <a href="https://facebook.com" > <FaFacebook /> </a>
                     </IconContext.Provider>
 
                     <IconContext.Provider
-                         value={{ color: 'white', size: '50px' }}
+                         value={{ color: 'white', size: '35px', marginRight: '15px' }}
                         >                   
                         <a href="https://twitter" > <FaTwitter /> </a>
                     </IconContext.Provider>
 
                     <IconContext.Provider
-                         value={{ color: 'white', size: '50px' }}
+                         value={{ color: 'white', size: '35px', marginRight: '15px' }}
                         >                   
                          <a href="https://google.com" > <FaGoogle /> </a>
                     </IconContext.Provider>
                     
                     <IconContext.Provider
-                         value={{ color: 'white', size: '50px' }}
+                         value={{ color: 'white', size: '35px', marginRight: '15px'}}
                         >                   
                          <a href="https://vimeo.com" > <FaVimeo /> </a>
                     </IconContext.Provider>

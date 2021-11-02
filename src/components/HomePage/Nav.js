@@ -22,7 +22,7 @@ const Navbar = () => {
                             <Link to='/'>Home</Link>
                             <Link to="/Rentals">Rentals</Link>
                             <Link to="/Construction">Construction</Link>
-                            <Link >Contacts</Link>
+                            <Link to="/Contact">Contacts</Link>
                         </div>
                         <div className="nav-icons">
                             <i>sign in</i>
