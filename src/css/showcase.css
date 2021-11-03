@@ -121,3 +121,122 @@ a{
 .category-4:first-child{
     color: #22313F;
 }
+
+@media screen and (max-width: 1300px){
+    .showcase, .overlay{
+        height: 95vh;
+    }
+}
+
+@media screen and (max-width: 1240px){
+    .category input {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .showcase-text {
+        top: 15%;
+    }
+
+    .categories{
+        flex: 0 0 50%;
+        flex-wrap: wrap;
+    }
+
+    .category{
+        width: 40%;
+    }
+
+    .category-3{
+        margin-left: -15px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .showcase, .overlay {
+        height: 105vh;
+    }
+
+    .category-4{
+        flex-direction: column;
+    }
+
+    .category-4 i{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .showcase-text p {
+        font-size: .7em;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .category-4 i {
+        margin-top: 10px;
+    }
+
+    .showcase-text button {
+        padding: 10px 50px;
+    }
+
+    input[placeholder="Deluxe Portion"]{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .nav-icons {
+        margin-left: 30%;
+    }
+
+    .categories {
+        display: flex;
+        flex: 0 0 100%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .categories br{
+        display: none;
+    }
+
+    .category{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .nav-icons {
+        margin-left: 30%;
+    }
+
+    .categories {
+        display: flex;
+        flex: 0 0 50%;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .categories br{
+        display: none;
+    }
+
+    .category{
+        
+    }
+
+    .showcase, .overlay {
+        height: 120vh;
+    }
+
+    .showcase-text {
+        top: 5%;
+    }
+
+    .category-3 {
+        margin-left: 0px; 
+    }
+}

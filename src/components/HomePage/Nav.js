@@ -1,5 +1,7 @@
 import '../../css/nav.css'
-
+import { FaUserCircle, FaSearch } from 'react-icons/fa';
+import { IconContext } from "react-icons";
+import { BiMenuAltRight } from "react-icons/bi";
 import { Link } from 'react-router-dom'
 import React from 'react'
 import { BrowserRouter as Router, } from 'react-router-dom'
@@ -25,8 +27,24 @@ const Navbar = () => {
                             <Link to="/Contact">Contacts</Link>
                         </div>
                         <div className="nav-icons">
-                            <i>sign in</i>
-                            <i>search</i>
+                            <IconContext.Provider
+                                value={{ color: 'white', size: '25px', marginRight: '15px' }}
+                            >                   
+                                <a href="" > <FaUserCircle /> </a>
+                            </IconContext.Provider>
+                            
+                            <IconContext.Provider
+                                value={{ color: 'white', size: '25px', marginRight: '15px'}}
+                                >                   
+                                <a href="" > <FaSearch /> </a>
+                            </IconContext.Provider>
+                        </div>
+                        <div className="ham-menu">
+                            <IconContext.Provider
+                                value={{ color: 'white', size: '25px', marginRight: '15px'}}
+                                >                   
+                                <a href="" > <BiMenuAltRight /> </a>
+                            </IconContext.Provider>
                         </div>
                     </div>
                 </nav>

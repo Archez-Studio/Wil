@@ -37,7 +37,7 @@ const Showcase = () => {
                             <div className="category category-1">
                                 <label>City/Street</label><br/>
                                 <input type="text" name="name" placeholder="Enter City"/>
-                            </div>
+                            </div><br/>
                             <div className="category category-2">
                                 <label>Apartment Type</label><br/>
                                 <input type="text" name="name" placeholder="Deluxe Portion"/>

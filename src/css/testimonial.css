@@ -25,3 +25,43 @@
     border: 5px solid orange;
     margin: 0px 20px 0px 110px;
 }
+
+@media screen and (max-width: 900px) {
+    .avatar-pic {
+        height: 165px;
+        width: 720px;
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+@media screen and (max-width: 780px){
+    .testimonials {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 640px){
+    .testimonials .flex{
+        flex-direction: column;
+    }
+
+    .testimonials p {
+        color: rgba(0, 0, 0, .7);
+        padding: 10px 40px 10px 0px;
+    }
+
+    .border-div-2 {
+        width: 10% !important;
+        margin-left: 0px !important;
+    }
+
+    .testimonials p br{
+        display: none;
+    }
+
+    .avatar-pic {
+        height: 165px;
+        width: 165px;
+        margin: 0px 20px 0px 15px;
+    }
+}

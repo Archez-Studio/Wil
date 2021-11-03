@@ -126,4 +126,34 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 1120px){
+    .FeaturedListings .showbox p{
+        margin: 0px 15px 5px 55% !important;
+    }
+}
 
+@media screen and (max-width: 900px){
+    .detail-box {
+        flex: 0 0 40%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .margin-listing {
+        flex-direction: column;
+    }
+
+    .heading-listings, .heading-description{
+        width: 100%;
+        text-align: left;
+    }
+
+    .heading-description p br{
+        display: none;
+    }
+
+    .border-div {
+        width: 10%;
+        margin: 15px 70px 5px 0px;
+    }
+}

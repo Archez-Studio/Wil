@@ -24,3 +24,24 @@
 .contact a{
     margin-right: 15px;
 }
+
+@media screen and (max-width: 1200px){
+    .container-md {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .social-icons {
+        margin-bottom: 40px;
+    }
+
+    .container-md {
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .mid-div {
+        width: 100%;
+    }
+}
