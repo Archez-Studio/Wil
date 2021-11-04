@@ -188,10 +188,6 @@ a{
 }
 
 @media screen and (max-width: 460px){
-    .nav-icons {
-        margin-left: 30%;
-    }
-
     .categories {
         display: flex;
         flex: 0 0 100%;
@@ -209,10 +205,6 @@ a{
 }
 
 @media screen and (max-width: 460px){
-    .nav-icons {
-        margin-left: 30%;
-    }
-
     .categories {
         display: flex;
         flex: 0 0 50%;
@@ -238,5 +230,11 @@ a{
 
     .category-3 {
         margin-left: 0px; 
+    }
+}
+
+@media screen and (max-width: 390px){
+    .tabs {
+        font-size: 16px;
     }
 }

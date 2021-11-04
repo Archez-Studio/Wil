@@ -62,7 +62,7 @@ nav i{
 }
 
 .ham-menu{
-    display: 'none';
+    display: none;
 }
 
 @media screen and (max-width: 1240px){
@@ -113,5 +113,23 @@ nav i{
 @media screen and (max-width: 510px) {
     .nav-icons {
         margin-left: 35%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    .nav-icons {
+        margin-left: 30%;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .nav-icons {
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .nav-icons {
+        margin-left: 20%;
     }
 }
