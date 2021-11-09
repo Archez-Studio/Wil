@@ -1,10 +1,11 @@
 import '../../css/nav.css'
-import { FaUserCircle, FaSearch } from 'react-icons/fa';
-import { IconContext } from "react-icons";
+
+import { FaSearch, FaUserCircle } from 'react-icons/fa';
+import { Link, Outlet } from "react-router-dom";
+
 import { BiMenuAltRight } from "react-icons/bi";
-import { Link } from 'react-router-dom'
+import { IconContext } from "react-icons";
 import React from 'react'
-import { BrowserRouter as Router, } from 'react-router-dom'
 
 // import HomePage from '../../pages/HomePage'
 
@@ -13,8 +14,7 @@ import { BrowserRouter as Router, } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <Router>
-            <React.Fragment>
+        
                 <nav className="navbar">
                     <div className="wrapper">
                         <div className="logo">
@@ -49,8 +49,7 @@ const Navbar = () => {
                     </div>
                 </nav>
                 
-            </React.Fragment>
-        </Router>
+           
     )
 }
 
