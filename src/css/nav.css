@@ -92,6 +92,7 @@ nav i{
 @media screen and (max-width: 780px){
     .navbar .container {
         display: none;
+        margin: 0;
     }
 
     .ham-menu{
@@ -102,6 +103,40 @@ nav i{
     .nav-icons {
         margin-left: 55%;
     }
+
+    .menuNav {
+        overflow-y: scroll;
+        background: rgba(0, 0, 0, .8);
+        left: 0;
+        overflow: hidden;
+        z-index: 90;
+      }
+
+      .menuNav.showMenu {
+        width: 100vw;
+        position: absolute;
+        top: 12%;
+        display: block;
+        height: auto !important;
+      }
+
+      .menuNav.showMenu a{
+        display: block;
+        text-align: right;
+        margin-right: 10%;
+        margin-top: 3%;
+        margin-bottom: 5%;
+      }
+
+      .arrow-up{
+        display: block !important;
+        z-index: 90;
+        height: 15px;
+        background-color: rgba(0, 0, 0, .8);
+        width: 15px;
+        transform: rotate(45deg);
+        top: 70px;
+      }
 }
 
 @media screen and (max-width: 640px){

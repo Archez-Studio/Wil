@@ -76,6 +76,7 @@ a{
     justify-content: space-around;
     padding: 15px 0;
     border-radius: 10px;
+    overflow: hidden;
 }
 
 .category{
@@ -214,10 +215,6 @@ a{
 
     .categories br{
         display: none;
-    }
-
-    .category{
-        
     }
 
     .showcase, .overlay {
