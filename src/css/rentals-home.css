@@ -32,3 +32,13 @@
         margin: auto;
     }
 }
+
+@media screen and (max-width: 370px){
+    .show-rentals-txt {
+        padding: 40px;
+    }
+
+    .showcase-text p {
+        font-size: .6em;
+    }
+}

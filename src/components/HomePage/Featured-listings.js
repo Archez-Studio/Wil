@@ -4,7 +4,7 @@ import '../../css/FeaturedListings.css'
 
 const FeaturedListings = () => {
     return (
-        <div className="FeaturedListings">
+        <div id="Listing" className="FeaturedListings">
             <div className="container-md ">
                 <div className="flex margin-listing">
                     <div className="heading-listings">

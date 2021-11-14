@@ -1,5 +1,5 @@
 import '../../css/showcase.css'
-
+import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import React from 'react'
 import { BrowserRouter as Router } from "react-router-dom"
@@ -17,7 +17,7 @@ const Showcase = () => {
                     </div>
                     <div className="showcase-text">
                         <p>Find Your <br/>Prestigious Home</p>
-                        <button>Start Now</button>
+                        <button ><a style={{ color: 'white', width: "100%", height: "100%" }} href="#Listing">Start Now</a></button>
                     
                         <div className="tabs">
                             <Link className="tab" to="/">
@@ -47,7 +47,11 @@ const Showcase = () => {
                                 <input type="number" name="name" placeholder="Min Price - Max Price"/>
                             </div>
                             <div className="category category-4">
-                                <i icon="plus" style={{color: "gray", fontSize: "15px", paddingRight: "25px"}}>Advanced Filter</i>
+                            <IconContext.Provider
+                                value={{ color: 'white', size: '25px', marginRight: '15px' }}
+                            >                   
+                                 
+                            </IconContext.Provider>
                                 <button className="search-button">Search</button>
                             </div>
                         </div>

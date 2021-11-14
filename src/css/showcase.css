@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 a{
     text-decoration: none;
 }
@@ -102,7 +106,7 @@ a{
 
 .category .search-button{
     border-radius: 10px;
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .category input{
@@ -202,6 +206,7 @@ a{
 
     .category{
         margin-bottom: 15px;
+        width: 50%;
     }
 }
 
