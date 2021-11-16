@@ -4,7 +4,11 @@ import { IconContext } from "react-icons";
 import { BiMenuAltRight } from "react-icons/bi";
 import { Link } from 'react-router-dom'
 import React, { useState } from 'react'
-import { BrowserRouter as Router, } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import Rentals from '../../pages/Rentals'
+import HomePage from '../../pages/HomePage'
+import Construction from '../../pages/Construction'
+
 
 
 // import HomePage from '../../pages/HomePage'
@@ -28,12 +32,10 @@ const Navbar = () => {
                             <a href="/">Wilons</a>
                         </div>
                         <div className={`container menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                            
                                 <Link to='/'>Home</Link>
                                 <Link to="/Rentals">Rentals</Link>
                                 <Link to="/Construction">Construction</Link>
-                                <Link to="/Contact">Contacts</Link>
-                            
+                                <a href="#Contact">Contacts</a>
                         </div>
                         <div className="nav-icons">
                             <IconContext.Provider
@@ -58,6 +60,19 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
+
+                <Switch>
+                    <Route path="/Rentals">
+                        <Rentals />
+                    </Route>
+                    <Route path="/Construction">
+                        <Construction />
+                    </Route>
+                    
+                    <Route path="/">
+                        <HomePage />
+                    </Route>
+                </Switch>
                 
             </React.Fragment>
         </Router>

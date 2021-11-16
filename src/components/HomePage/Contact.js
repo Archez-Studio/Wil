@@ -9,7 +9,7 @@ import React from 'react'
 const Contact = () => {
     return (
 
-        <div className="contact">
+        <div id="Contact" className="contact">
             <div className="container-md flex">
                 <div className="wilons-description mid-div">
                     <img src={Logo} alt="logo"/>
