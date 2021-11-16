@@ -12,9 +12,7 @@ const Showcase = () => {
         <Router>
             <React.Fragment>
                 <div  className="showcase">
-                    <div className="overlay">
-                        
-                    </div>
+                    <div className="overlay"></div>
                     <div className="showcase-text">
                         <p>Find Your <br/>Prestigious Home</p>
                         <button ><a style={{ color: 'white', width: "100%", height: "100%" }} href="#Listing">Start Now</a></button>
