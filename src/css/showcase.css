@@ -167,7 +167,7 @@ a{
 
 @media screen and (max-width: 820px) {
     .showcase-text {
-        top: 7%;
+        top: 15%;
     }
 }
 
@@ -193,7 +193,7 @@ a{
 
 @media screen and (max-width: 600px) {
     .showcase-text {
-        top: 5%;
+        top: 15%;
     }
 }
 
@@ -254,7 +254,7 @@ a{
     }
 
     .showcase-text {
-        top: 5%;
+        top: 15%;
     }
 
     .category-3 {
