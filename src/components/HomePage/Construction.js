@@ -1,6 +1,7 @@
 import '../../css/Construction.css'
 
-import { FaCheckSquare, FaStar } from 'react-icons/fa'
+import { FaCheckSquare, FaStar, } from 'react-icons/fa'
+import {MdLocationPin, MdVerifiedUser} from 'react-icons/md'
 
 import { IconContext } from "react-icons";
 import React from 'react'
@@ -19,7 +20,7 @@ const Construction = () => {
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -33,7 +34,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
+                        >                   
+                          <MdLocationPin /> 
+                    </IconContext.Provider>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>
@@ -45,7 +52,7 @@ const Construction = () => {
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -59,7 +66,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
+                        >                   
+                          <MdLocationPin /> 
+                    </IconContext.Provider>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>
@@ -71,7 +84,7 @@ const Construction = () => {
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -85,7 +98,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
+                        >                   
+                          <MdLocationPin /> 
+                    </IconContext.Provider>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>
