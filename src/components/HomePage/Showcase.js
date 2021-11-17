@@ -106,6 +106,30 @@ const Showcase = () => {
                                     </div>
                                 </div>
                             </TabPanel>
+                            <TabPanel>
+                                <div className="categories">
+                                    <div className="category category-1">
+                                        <label>City/Street</label><br/>
+                                        <input type="text" name="name" placeholder="Enter City"/>
+                                    </div><br/>
+                                    <div className="category category-2">
+                                        <label>Apartment Type</label><br/>
+                                        <input type="text" name="name" placeholder="Deluxe Portion"/>
+                                    </div>
+                                    <div className="category category-3">
+                                        <label>Price Range</label><br/>
+                                        <input type="number" name="name" placeholder="Min Price - Max Price"/>
+                                    </div>
+                                    <div className="category category-4">
+                                        <IconContext.Provider
+                                            value={{ color: 'white', size: '25px', marginRight: '15px' }}
+                                        >                   
+                                            
+                                        </IconContext.Provider>
+                                        <button className="search-button">Search</button>
+                                    </div>
+                                </div>
+                            </TabPanel>
                             
                         </Tabs>
                     </div>
