@@ -31,7 +31,7 @@ a{
     position: relative;
     width: 80%;
     margin: auto;
-    top: 25%;
+    top: 15%;
 }
 
 .showcase-text p{
@@ -133,6 +133,7 @@ a{
     color: #22313F;
 }
 
+
 @media screen and (max-width: 1300px){
     .showcase, .overlay{
         height: 95vh;
@@ -164,6 +165,12 @@ a{
     }
 }
 
+@media screen and (max-width: 820px) {
+    .showcase-text {
+        top: 7%;
+    }
+}
+
 @media screen and (max-width: 780px){
     .showcase, .overlay {
         height: 105vh;
@@ -184,9 +191,19 @@ a{
     }
 }
 
+@media screen and (max-width: 600px) {
+    .showcase-text {
+        top: 5%;
+    }
+}
+
 @media screen and (max-width: 510px) {
     .category-4 i {
         margin-top: 10px;
+    }
+
+    .showcase-text {
+        width: 90%;
     }
 
     .showcase-text button {
@@ -230,6 +247,10 @@ a{
 
     .showcase, .overlay {
         height: 120vh;
+    }
+
+    .showcase-home {
+        height: 100vh;
     }
 
     .showcase-text {
