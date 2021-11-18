@@ -41,8 +41,8 @@
 
 .showbox{
     height: 180px;
-    background-color: #5F6862;
-    padding-top: 15px;
+    /* background-color: #5F6862; */
+    padding-top: 5px;
 }
 
 .detail-box{

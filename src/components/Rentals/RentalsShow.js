@@ -2,6 +2,7 @@ import '../../css/FeaturedListings.css'
 
 import { FaRegHeart, FaRegImage, FaRetweet } from 'react-icons/fa';
 
+import Home from '../../assets/home1 (1).jpg'
 import { IconContext } from "react-icons";
 import React from 'react'
 
@@ -22,10 +23,13 @@ const FeaturedListings = () => {
                 </div>
                 <div className="flex flex-num">
                     <div className="detail-box">
+                    
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
+                            
                             <p className="p-1">The coach house</p>
                             <p className="p-2">$478,000</p>
                         </div>
@@ -33,7 +37,9 @@ const FeaturedListings = () => {
                             <p className="p-3">Beds: 4</p>
                             <p className="p-3">Baths: 2</p>
                             <p className="p-5">Sq.ft: 1200</p>
-                            <div className="p-4"></div>
+                            <div className="p-4">
+                                
+                            </div>
                             <p className="p-6 p-3">$2,600/Sq.ft</p>
                         </div>
                         <p className="p-7">The point of using lorem ipsum is</p>
@@ -59,6 +65,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
                             <p className="p-1">The coach house</p>
@@ -94,6 +101,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
                             <p className="p-1">The coach house</p>
@@ -129,6 +137,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
                             <p className="p-1">The coach house</p>
@@ -164,6 +173,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
                             <p className="p-1">The coach house</p>
@@ -200,6 +210,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                         <div className="showbox">
                             <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
                             <p className="p-1">The coach house</p>
