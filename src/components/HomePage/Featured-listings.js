@@ -1,6 +1,6 @@
 import '../../css/FeaturedListings.css'
 
-import { FaFacebook, FaGoogle, FaRegHeart, FaRegImage, FaRetweet, FaTwitter, FaVimeo } from 'react-icons/fa';
+import { FaRegHeart, FaRegImage, FaRetweet } from 'react-icons/fa';
 
 import { IconContext } from "react-icons";
 import React from 'react'

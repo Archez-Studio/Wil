@@ -1,6 +1,9 @@
-import React from 'react'
 import '../../css/FeaturedListings.css'
 
+import { FaRegHeart, FaRegImage, FaRetweet } from 'react-icons/fa';
+
+import { IconContext } from "react-icons";
+import React from 'react'
 
 const FeaturedListings = () => {
     return (
@@ -35,6 +38,23 @@ const FeaturedListings = () => {
                         </div>
                         <p className="p-7">The point of using lorem ipsum is</p>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
@@ -53,6 +73,23 @@ const FeaturedListings = () => {
                         </div>
                         <p className="p-7">The point of using ipsum lorem is</p>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
@@ -71,6 +108,23 @@ const FeaturedListings = () => {
                         </div>
                         <p className="p-7">The point of using ipsum lorem is</p>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
@@ -89,6 +143,23 @@ const FeaturedListings = () => {
                         </div>
                         <p className="p-7">The point of using ipsum lorem is</p>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
@@ -108,6 +179,23 @@ const FeaturedListings = () => {
                         <p className="p-7">The point of using ipsum lorem is</p>
                         <hr/>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
@@ -126,6 +214,23 @@ const FeaturedListings = () => {
                         </div>
                         <p className="p-7">The point of using ipsum lorem is</p>
                         <button className="details-btn">Details</button>
+                        <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegHeart /> </a>
+                       </IconContext.Provider> 
+
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRegImage /> </a>
+                       </IconContext.Provider>
+                       
+                       <IconContext.Provider
+                         value={{ color: 'black', size: '15px', marginLeft: '50px' }}
+                        >                   
+                         <a href="#" > <FaRetweet /> </a>
+                       </IconContext.Provider>
                     </div>
                 </div>
                 

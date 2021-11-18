@@ -1,8 +1,8 @@
 import '../../css/Construction.css'
 
-import { FaCheckSquare, FaStar, } from 'react-icons/fa'
 import {MdLocationPin, MdVerifiedUser} from 'react-icons/md'
 
+import {FaStar,} from 'react-icons/fa'
 import { IconContext } from "react-icons";
 import React from 'react'
 

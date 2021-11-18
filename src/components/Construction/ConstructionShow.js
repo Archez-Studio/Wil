@@ -1,7 +1,8 @@
 import '../../css/Construction.css'
 
-import { FaCheckSquare, FaStar } from 'react-icons/fa'
+import {MdLocationPin, MdVerifiedUser} from 'react-icons/md'
 
+import {FaStar,} from 'react-icons/fa'
 import { IconContext } from "react-icons";
 import React from 'react'
 
@@ -13,13 +14,13 @@ const Construction = () => {
                 <h1 className="hc-1" style={{backgroundColor: 'white'}}><b>Construction</b> Agencies</h1>
             </div>
             <div className="flex flex-num properties" style={{backgroundColor: 'white'}}>
-                <div className="const-card">
+            <div className="const-card">
                     <div className="flex">
                         <i className="verify">
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -33,7 +34,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
+                        >                   
+                          <MdLocationPin /> 
+                    </IconContext.Provider>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>
@@ -45,7 +52,7 @@ const Construction = () => {
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -59,7 +66,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
+                        >                   
+                          <MdLocationPin /> 
+                    </IconContext.Provider>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>
@@ -71,7 +84,7 @@ const Construction = () => {
                         <IconContext.Provider
                          value={{ color: 'green', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdVerifiedUser /> 
                     </IconContext.Provider>
                             Verified</i>
                         <i className="rating">
@@ -85,85 +98,13 @@ const Construction = () => {
                     <div className="const-icon">
 
                     </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
-                    <h2 className="head-desc">ProHouse</h2>
-                    <p className="p-tel">123 456 7890</p>
-                    <p className="p-mail">agency@email.com</p>
-                    <button className="prop-btn">4 Properties</button>
-                </div>
-                <div className="const-card .flex-num">
-                    <div className="flex">
-                        <i className="verify">
-                        <IconContext.Provider
-                         value={{ color: 'green', size: '15px' }}
+                    <p className="p-location"><i>
+                    <IconContext.Provider
+                         value={{ color: 'black', size: '15px' }}
                         >                   
-                          <FaCheckSquare /> 
+                          <MdLocationPin /> 
                     </IconContext.Provider>
-                            Verified</i>
-                        <i className="rating">
-                        <IconContext.Provider
-                         value={{ color: '#FFC107', size: '15px' }}
-                        >                   
-                          <FaStar /> 
-                    </IconContext.Provider>
-                            4.5</i>
-                    </div>
-                    <div className="const-icon">
-
-                    </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
-                    <h2 className="head-desc">ProHouse</h2>
-                    <p className="p-tel">123 456 7890</p>
-                    <p className="p-mail">agency@email.com</p>
-                    <button className="prop-btn">4 Properties</button>
-                </div>
-                <div className="const-card">
-                    <div className="flex">
-                        <i className="verify">
-                        <IconContext.Provider
-                         value={{ color: 'green', size: '15px' }}
-                        >                   
-                          <FaCheckSquare /> 
-                    </IconContext.Provider>
-                            Verified</i>
-                        <i className="rating">
-                        <IconContext.Provider
-                         value={{ color: '#FFC107', size: '15px' }}
-                        >                   
-                          <FaStar /> 
-                    </IconContext.Provider>
-                            4.5</i>
-                    </div>
-                    <div className="const-icon">
-
-                    </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
-                    <h2 className="head-desc">ProHouse</h2>
-                    <p className="p-tel">123 456 7890</p>
-                    <p className="p-mail">agency@email.com</p>
-                    <button className="prop-btn">4 Properties</button>
-                </div>
-                <div className="const-card">
-                    <div className="flex">
-                        <i className="verify">
-                        <IconContext.Provider
-                         value={{ color: 'green', size: '15px' }}
-                        >                   
-                          <FaCheckSquare /> 
-                    </IconContext.Provider>
-                            Verified</i>
-                        <i className="rating">
-                        <IconContext.Provider
-                         value={{ color: '#FFC107', size: '15px' }}
-                        >                   
-                          <FaStar /> 
-                    </IconContext.Provider>
-                            4.5</i>
-                    </div>
-                    <div className="const-icon">
-
-                    </div>
-                    <p className="p-location"><i></i>Nairobi, Kenya</p>
+                        </i>Nairobi, Kenya</p>
                     <h2 className="head-desc">ProHouse</h2>
                     <p className="p-tel">123 456 7890</p>
                     <p className="p-mail">agency@email.com</p>

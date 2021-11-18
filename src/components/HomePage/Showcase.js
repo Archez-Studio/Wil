@@ -1,9 +1,11 @@
 import '../../css/showcase.css'
+
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
+
 import { IconContext } from "react-icons";
 import { Link } from "react-router-dom";
 import React from 'react'
 import { BrowserRouter as Router } from "react-router-dom"
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 
 /*import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'*/
 
