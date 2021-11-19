@@ -4,6 +4,7 @@ import {MdLocationPin, MdVerifiedUser} from 'react-icons/md'
 
 import {FaStar,} from 'react-icons/fa'
 import { IconContext } from "react-icons";
+import Logo from '../../assets/LeftDes.png'
 import React from 'react'
 
 const Construction = () => {
@@ -32,7 +33,7 @@ const Construction = () => {
                             4.5</i>
                     </div>
                     <div className="const-icon">
-
+                    <img src={Logo} alt="House1" width='290' height='140' padding="2px 5px 5px 0px"/>
                     </div>
                     <p className="p-location"><i>
                     <IconContext.Provider
@@ -64,7 +65,7 @@ const Construction = () => {
                             4.5</i>
                     </div>
                     <div className="const-icon">
-
+                    <img src={Logo} alt="House1" width='290' height='140' padding="2px 5px 5px 0px"/>
                     </div>
                     <p className="p-location"><i>
                     <IconContext.Provider
@@ -96,7 +97,7 @@ const Construction = () => {
                             4.5</i>
                     </div>
                     <div className="const-icon">
-
+                    <img src={Logo} alt="House1" width='290' height='140' padding="2px 5px 5px 0px"/>
                     </div>
                     <p className="p-location"><i>
                     <IconContext.Provider

@@ -67,8 +67,8 @@ const Showcase = () => {
                                         <input type="text" name="name" placeholder="Enter City"/>
                                     </div><br/>
                                     <div className="category category-2">
-                                        <label>Apartment Type</label><br/>
-                                        <input type="text" name="name" placeholder="Deluxe Portion"/>
+                                        <label>Property Type</label><br/>
+                                        <input type="text" name="name" placeholder="Maisonette"/>
                                     </div>
                                     <div className="category category-3">
                                         <label>Price Range</label><br/>
@@ -87,11 +87,11 @@ const Showcase = () => {
                             <TabPanel>
                                 <div className="categories">
                                     <div className="category category-1">
-                                        <label>City/Street</label><br/>
+                                        <label>Location</label><br/>
                                         <input type="text" name="name" placeholder="Enter City"/>
                                     </div><br/>
                                     <div className="category category-2">
-                                        <label>Apartment Type</label><br/>
+                                        <label>Property Type</label><br/>
                                         <input type="text" name="name" placeholder="Deluxe Portion"/>
                                     </div>
                                     <div className="category category-3">
@@ -111,15 +111,15 @@ const Showcase = () => {
                             <TabPanel>
                                 <div className="categories">
                                     <div className="category category-1">
-                                        <label>City/Street</label><br/>
+                                        <label>Location</label><br/>
                                         <input type="text" name="name" placeholder="Enter City"/>
                                     </div><br/>
                                     <div className="category category-2">
-                                        <label>Apartment Type</label><br/>
+                                        <label>Property Type</label><br/>
                                         <input type="text" name="name" placeholder="Deluxe Portion"/>
                                     </div>
                                     <div className="category category-3">
-                                        <label>Price Range</label><br/>
+                                        <label>Lease Range</label><br/>
                                         <input type="number" name="name" placeholder="Min Price - Max Price"/>
                                     </div>
                                     <div className="category category-4">
