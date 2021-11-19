@@ -44,7 +44,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
@@ -81,7 +81,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
@@ -118,7 +118,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
@@ -155,7 +155,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
@@ -192,7 +192,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
@@ -229,7 +229,7 @@ const FeaturedListings = () => {
                         <IconContext.Provider
                          value={{ color: 'black', size: '15px', marginLeft: '50px' }}
                         >                   
-                         <a href="#" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
+                         <a href="#" className="a1" style={{ marginLeft: '35%' }}> <FaRegHeart /> </a>
                        </IconContext.Provider> 
 
                        <IconContext.Provider
