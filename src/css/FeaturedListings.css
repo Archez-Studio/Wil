@@ -42,13 +42,29 @@
 .showbox{
     height: 180px;
     /* background-color: #5F6862; */
-    padding-top: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.showbox img{
+    position: relative;
+    z-index: 5;
+    height: 170px;
+}
+
+.showbox p{
+    position: absolute;
+    z-index: 1000;
 }
 
 .detail-box{
     width: 30%;
     margin-bottom: 50px;
     flex: 0 0 26%;
+}
+
+.detail-box a{
+    margin-left: 5%;
 }
 
 .show-details p{
@@ -121,14 +137,14 @@
     border: 2px solid rgba(95, 104, 98, .7);
     border-radius: 20px;
     font-size: 16px;
-    margin: 5px 5px 100px 40px;
+    margin: 5px 5px 100px 15px;
     color: #5F6862;
     cursor: pointer;
 }
 
 @media screen and (max-width: 1120px){
     .FeaturedListings .showbox p{
-        margin: 0px 15px 5px 55% !important;
+        margin: 15px 15px 5px 55% !important;
     }
 }
 
