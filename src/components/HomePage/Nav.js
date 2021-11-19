@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Rentals from '../../pages/Rentals'
 import HomePage from '../../pages/HomePage'
 import Construction from '../../pages/Construction'
+import { GoSearch } from 'react-icons/go'
+import { AiOutlineUser } from 'react-icons/ai'
 
 
 
@@ -41,13 +43,13 @@ const Navbar = () => {
                             <IconContext.Provider
                                 value={{ color: 'white', size: '25px', marginRight: '15px' }}
                             >                   
-                                <a href="" > <FaUserCircle /> </a>
+                                <a href="" > <AiOutlineUser /> </a>
                             </IconContext.Provider>
                             
                             <IconContext.Provider
                                 value={{ color: 'white', size: '25px', marginRight: '15px'}}
                                 >                   
-                                <a href="" > <FaSearch /> </a>
+                                <a href="" > <GoSearch /> </a>
                             </IconContext.Provider>
                         </div>
                         <div id="humbergerMenu" className="ham-menu">
