@@ -1,15 +1,17 @@
 import '../../css/nav.css'
-import { FaUserCircle, FaSearch } from 'react-icons/fa';
-import { IconContext } from "react-icons";
-import { BiMenuAltRight } from "react-icons/bi";
-import { Link } from 'react-router-dom'
+
+import { FaSearch, FaUserCircle } from 'react-icons/fa';
 import React, { useState } from 'react'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
-import Rentals from '../../pages/Rentals'
-import HomePage from '../../pages/HomePage'
+import { Route, BrowserRouter as Router, Switch } from 'react-router-dom'
+
+import { AiOutlineUser } from 'react-icons/ai'
+import { BiMenuAltRight } from "react-icons/bi";
 import Construction from '../../pages/Construction'
-
-
+import { GoSearch } from 'react-icons/go'
+import HomePage from '../../pages/HomePage'
+import { IconContext } from "react-icons";
+import { Link } from 'react-router-dom'
+import Rentals from '../../pages/Rentals'
 
 // import HomePage from '../../pages/HomePage'
 
@@ -39,15 +41,15 @@ const Navbar = () => {
                         </div>
                         <div className="nav-icons">
                             <IconContext.Provider
-                                value={{ color: 'white', size: '25px', marginRight: '15px' }}
+                                value={{ color: 'white', size: '15px', marginRight: '15px' }}
                             >                   
-                                <a href="" > <FaUserCircle /> </a>
+                                <a href="" > <AiOutlineUser /> </a>
                             </IconContext.Provider>
                             
                             <IconContext.Provider
-                                value={{ color: 'white', size: '25px', marginRight: '15px'}}
+                                value={{ color: 'white', size: '15px', marginRight: '15px'}}
                                 >                   
-                                <a href="" > <FaSearch /> </a>
+                                <a href="" > <GoSearch /> </a>
                             </IconContext.Provider>
                         </div>
                         <div id="humbergerMenu" className="ham-menu">
