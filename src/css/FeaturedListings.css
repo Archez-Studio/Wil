@@ -224,4 +224,8 @@
     .showbox img {
         width: 100%;
     }
+
+    .btn-props {
+        margin: 5px 5px 100px 50px;
+    }
 }
