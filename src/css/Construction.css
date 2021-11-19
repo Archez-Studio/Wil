@@ -122,5 +122,9 @@
     .detail-box {
         flex: 0 0 75%;
     }
+
+    .btn-more-props {
+        left: 30%;
+    }
 }
 
