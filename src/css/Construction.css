@@ -128,3 +128,9 @@
     }
 }
 
+@media screen and (max-width: 420px) {
+    .btn-more-props {
+        left: 25%;
+    }
+}
+
