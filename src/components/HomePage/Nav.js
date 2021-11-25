@@ -1,8 +1,8 @@
 import '../../css/nav.css'
-import { FaUserCircle, FaSearch } from 'react-icons/fa';
-import { IconContext } from "react-icons";
-import { BiMenuAltRight } from "react-icons/bi";
-import { Link } from 'react-router-dom'
+import Logo from '../../assets/Logo.png'
+import { IconContext } from "react-icons"
+import { BiMenuAltRight } from "react-icons/bi"
+import { NavLink } from 'react-router-dom'
 import React, { useState } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Rentals from '../../pages/Rentals'
@@ -31,12 +31,12 @@ const Navbar = () => {
                 <nav className="navbar navBar">
                     <div className="wrapper">
                         <div className="logo">
-                            <a href="/">Wilons</a>
+                            <a href="/"><img src={Logo} alt="logo"/></a>
                         </div>
                         <div className={`container menuNav ${navbarOpen ? " showMenu" : ""}`}>
-                                <Link to='/'>Home</Link>
-                                <Link to="/Rentals">Rentals</Link>
-                                <Link to="/Construction">Construction</Link>
+                                <NavLink exact activeClassName="navbar__link--active" to='/'>Home</NavLink>
+                                <NavLink activeClassName="navbar__link--active" to="/Rentals">Housing</NavLink>
+                                <NavLink activeClassName="navbar__link--active" to="/Construction">Construction</NavLink>
                                 <a href="#Contact">Contacts</a>
                         </div>
                         <div className="nav-icons">

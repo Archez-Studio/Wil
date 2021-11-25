@@ -1,6 +1,6 @@
 import '../../css/contact.css'
 
-import { FaFacebook, FaGoogle, FaTwitter, FaVimeo } from 'react-icons/fa';
+import { FaFacebook, FaGoogle, FaTwitter, FaLinkedin } from 'react-icons/fa';
 
 import { IconContext } from "react-icons";
 import Logo from '../../assets/Logo.png'
@@ -37,7 +37,7 @@ const Contact = () => {
                     <IconContext.Provider
                          value={{ color: 'white', size: '35px', marginRight: '15px'}}
                         >                   
-                         <a href="https://vimeo.com" > <FaVimeo /> </a>
+                         <a href="https://vimeo.com" > <FaLinkedin /> </a>
                     </IconContext.Provider>
                 
                     </div>

@@ -25,7 +25,7 @@ const FeaturedListings = () => {
                     <div className="detail-box">
                     
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
@@ -64,7 +64,7 @@ const FeaturedListings = () => {
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
@@ -100,7 +100,7 @@ const FeaturedListings = () => {
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
@@ -136,7 +136,7 @@ const FeaturedListings = () => {
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
@@ -172,7 +172,7 @@ const FeaturedListings = () => {
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
@@ -209,7 +209,7 @@ const FeaturedListings = () => {
                     </div>
                     <div className="detail-box">
                         <div className="showbox">
-                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '0px 15px 5px 70%', }}>For Sale</p>
+                            <p style={{padding: '2px 5px 5px 0px', textAlign: 'right', backgroundColor: '#22313F', margin: '5px 15px 5px 70%', }}>For Sale</p>
                             <img src={Home} alt="House1" width='300' height='150' padding="2px 5px 5px 0px"/>
                         </div>
                         <div className="show-details flex">
